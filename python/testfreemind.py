@@ -1,0 +1,3 @@
+import freemind
+
+freemind.run()

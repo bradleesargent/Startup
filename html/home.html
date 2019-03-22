@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="home.js"></script>
+	<title>Home Page</title>
+	
+</head>
+	
+<body onload="load()">
+<h1 style='text-align:center'>Brads Home Page</h1>
+Hourly Pay:<input type='text' id='hourly' /><br/>
+<input type='button' value='Compute Yearly Pay'  onclick='getyearly()' /><br/>
+Annual Pay:<input type='text' id='yearly' /><br/>
+Monthly Pay:<input type='text' id='monthly' /><br/>
+Weekly Pay:<input type='text' id='weekly' /><br/>
+Daily Pay:<input type='text' id='daily' /><br/>
+
+
+<form>
+<ol>
+<li>
+<a href="file:///C:/Users/bradl/OneDrive/Documents/Resumes/coverletter.html">Cover Letter</a>
+</li>
+<li>
+<input type='text' id='datemmdir' value='' size='100' />
+</li>
+<li>
+<input type='text' id='datemm' value='October 4, 2018' size='100' />
+</li>
+<li>
+<input type='text' id='datemasterdir' value='' size='100' />
+</li>
+<li>
+<input type='text' id='datenewsubdir' value='' size='100' />
+</li>
+<li>
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin' size='100' />
+</li>
+<li>
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin\Java 8 Essentials Training.mm' size='100' />
+</li>
+<li>
+<input type='text'  value='Java 8 Essentials Training' size='100' />
+</li>
+
+<li>
+<input type='text'  value='Advanced Java' size='100' />
+</li>
+<li>
+
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin\Advanced Java.mm' size='100' />
+
+</li>
+
+<li>
+<input type='text'  value='Full Stack' size='100' />
+</li>
+<li>
+
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin\Full Stack.mm' size='100' />
+
+</li>
+<li>
+<input type='text' value='C:\Users\bradl\OneDrive\Documents\Java\workspace\mysqltest\Java_MySQL_Test' size='160' />
+</li>
+
+
+<li>
+<input type='text'  value='Java Interview' size='100' />
+</li>
+<li>
+
+<input type='text'  value='Looking for remote java developer opportunities' size='100' />
+</li>
+<li>
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin\Java Interview.mm' size='100' />
+
+</li>
+
+<li>
+<input type='text'  value='C:\Users\bradl\Dropbox\06 Training\Linkedin\Learning Spring with Spring Boot.mm' size='100' />
+
+</li>
+
+<li>
+<input type='text' value='C:\Users\bradl\OneDrive\Startup' size='100' />
+</li>
+
+<!--- Start of template
+
+<li>
+<input type='text' value='' size='60' /><br/>
+
+<textarea cols="100">
+
+</textarea>
+</li>
+
+  End of template -->
+<li>
+<input type='text' value='Interview' size='60' /><br/>
+  <textarea cols="100">
+  When should I expect to get an interview lined up?
+How long will it take?
+Are there any further steps for me to take before you are able to submit me to the client?
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Bad Fit' size='60' /><br/>
+
+<textarea cols="100">
+I don't think I am a qualified fit for this position.
+</textarea>
+</li>
+
+  <li>
+<input type='text' value='' size='60' /><br/>
+
+<textarea cols="100">
+What is the location of this opportunity and do you have any remote opportunities for a java developer available?
+</textarea>
+</li>
+  
+
+  
+<li>
+<input type='text' value='Disability' size='60' /><br/>
+
+<textarea cols="100" rows="5">
+I would love to be able to work in on site, but I do have some issues with disability related to excessive daytime sleepiness which presents a challenge for your client.
+I am not sure how to move forward in light of this but I usually wait until I receive an offer before informing the client about this.
+What are your thoughts.
+
+</textarea>
+</li>
+
+
+<li>
+<input type='text' value='Deal Breaker' size='60' /><br/>
+
+<textarea cols="100">
+I don't have any experience on any of those technologies, so is that a deal breaker?
+
+</textarea>
+</li>
+
+  
+<li>
+<input type='text' value='Questions' size='60' /><br/>
+
+<textarea cols="100">
+Send me any and all questions by email please.
+
+</textarea>
+</li>
+  
+<li>
+<input type='text' value='Steps' size='60' /><br/>
+
+<textarea cols="100">
+What steps do I need to take in order for you to comfortably submit me to your client?
+
+</textarea>
+</li>
+<li>
+<input type='text' value='RTR' size='60' /><br/>
+
+<textarea cols="100">
+Can you send me the right to represent, or what do you need something more from me in order to be able to do that?
+
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Which Location' size='60' /><br/>
+
+<textarea cols="100">
+How am I supposed to be able to decide which location is the right one for me?
+</textarea>
+</li>
+
+
+<li>
+<input type='text' value='TCS' size='60' /><br/>
+
+<textarea cols="100">
+I often get a follow up email from tcs with the wrong email address which makes it impossible to use.
+How do we handle this circumstance, because in order to create a valid login, it needs my gmail account bradlee.sargent@gmail.com.
+
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Steps' size='60' /><br/>
+<textarea rows="2" cols="100">
+What steps do I need to take in order for you to comfortably submit me to your client?
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Maximum Salary $187,000?' size='60' /><br/>
+<textarea rows="2" cols="100">
+How high can we go and still be competitive?  My maximum request is up to $187,200?
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Hope Messer' size='60' /><br/>
+<textarea rows="2" cols="100">
+Please contact my manager Hope Messer by email at hope.messer@hopeinthehearts.org or by phone at 407-375-2817   and let me know how that goes...
+</textarea>
+</li>
+<li>
+<input type='text' value='confirm...right to represent...skype...linkedin' size='60' /><br/>
+<textarea rows="10" cols="100">
+I confirm the rate and right to represent.
+
+How soon  can you submit me to the client?
+
+Please reply to confirm submission of my resume to the client?  
+
+Can you please send me your skype id so we can track progress?
+
+My skype id is bradleesargent.
+
+Can you also please connect to me with linkedin?
+
+
+https://www.linkedin.com/in/bradlee-sargent-1737853/ 
+</textarea>
+</li>
+<li>
+<input type='text' value='Remote' size='60' /><br/>
+
+<textarea cols="100">
+
+Do you know of any remote positions for a java backend developer with experience in html, java, javascript, oracle, web applications, servlets, web services and jsp?
+</textarea>
+</li>
+
+
+<li>
+<input type='text' value='90 Per Hour?' size='60' /><br/>
+<textarea cols="100">
+Can they pay $90/hour and still be competitive?
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Maximum Rate' size='60' /><br/>
+
+<textarea cols="100">
+What is the maximum rate and still remain competitive?
+</textarea>
+</li>
+
+<li>
+<input type='text' value='Duration' size='60' /><br/>
+
+<textarea cols="100">
+What is the duration of this contract in months or is it permanent full time role?
+</textarea>
+</li>
+<li>
+<textarea cols="100">
+What steps do I need to take in order for you to comfortably submit me to your client?
+</textarea>
+</li>
+<h1 style='text-align:center'>Resume</h1>
+<li>
+<textarea rows='70' cols='150'>
+Bradlee Sargent
+13751 Hawkeye Drive
+Orlando, Fl 32837
+Home: 
+bradlee.sargent@gmail.com
+
+Dear Sirs/Madams,
+
+With over 20 years experience with the Oracle database, and developing software in every kind of environment including ibm mainframes, mini computers, microcomputers I feel more than qualified to be a part of your tremendous success going forward.
+
+As my manager at Aetna Specialty Pharmacy, Drew Cooper put it...
+
+Bradlee is one of those rare well-rounded technologists that comes along once every blue moon who is able to see both the tactical and strategic picture without much guidance. I interviewed and hired Bradlee as a senior java developer and never regretted a day during our tenure working together. Bradlee's uncanny ability to always map his tactical planning to the overall strategic goals of the business, of not just Aetna Specialty Pharmacy but also to corporate Aetna, set the standard by which the the balance of the development team was eventually measured. Due to his expert knowledge of java coding, he was selected to define a credible approach to a major java upgrade effort within the specialty pharmacy. He succeed effortlessly in doing just that and executed flawlessly to the plan. I would hire Bradlee anywhere anytime and would highly recommend him to any employer who is looking for a leader in java development.
+ 
+
+
+Having developer all kinds of web applications using Java, Oracle, SQL Server, JDeveloper, Eclipse, Microsoft SQL Server, Windows, Unix, Sun Microsoystems, HTML, Javascript, asp, XML, XSL, ADODB, Jquery, ADF, JSF,itext, Web Services, Struts, JSP,  Firestorm, and Eclipse it makes me very excited to think of using my talents at your company.
+
+If anything in my resume or on this cover letter capture your attention and you think there's the possibility we have of working together to continue your success in the future, feel free to contact me at 407 435 0839 or just drop me an email at bradlee.sargent@gmail.com. I will sit with you and find out what it is that you are looking for and then we can decide together what the future can hold for us if we involve ourselves with one another's successful endeavors.
+
+</textarea>
+</li>
+<li>
+<textarea rows='30' cols='150' >
+BRADLEE H. SARGENT 
+REMOTE JAVA DEVELOPER
+	13751 Hawkeye Drive 
+Orlando, FL 32837 
+Phone +1-407-683-2128
+bradlee.sargent@gmail.com
+PROFESSIONAL SUMMARY: 
+Position as a Programmer/Analyst seeking remote work with flexible hours in a state-of-art software development environment that offers flexibility and independence, rewards creativity and out-of-the-box thinking.  I enjoy serving others by taking care of computer issues using my skills with troubleshooting problems and issues.  Seeking qualities of support to provide reinforcement of clear communications and a path to leadership. 
+HIGHLIGHTS
+•	30 years Programming in various industries including manufacturing, entertainment, health and education.
+•	20 years Java Core experience
+•	5 years’ experience multithreading
+•	Speak, read and write fluent German
+•	Speak some Arabic
+•	Can provide expertise in multiple technologies including Oracle, SQL, XML, Eclipse, JDBC, Tomcat, Struts, Log4j, Tiles, Ajax, JNI, JavaScript, Applets, JSP, Java, ASP, VB.NET, MVC, REST, RDBMS, GitHub, Linux and Web technologies
+•	Leader positions in Central Florida Users Groups
+•	Authored newsletters for Oracle/Windows programmers/users.  
+•	Beta tester of Microsoft Windows 95,98, XP and Office XP, publisher and front page. 
+•	Python, Apache Ant and Maven, SVN
+EXPERIENCE: 
+
+
+MS Access Developer	Produkte Aus Israel, Schorndorf, Germany	7/2018
+•	Alter tables in Microsoft Access
+•	Develop modules using Microsoft Access
+•	Adding visual basic for applications coding
+•	Adding list boxes, combo boxes, and database fields to Microsoft Access
+•	Writing visual basic for applications code to generate html pages and display them to the user interactively using visual basic command buttons.
+Java Web Developer	Honeywell/Cyberthink, Kansis City, Missiouri	3/2017-7/2018
+•	Developed Servlets and Restful Web Service to provide files , monitor, receive and process jms messages
+•	Introduced mind mapping software to further enhance the development cycle
+•	Developed desktop applications using java swing, javafx, jdbc and css
+•	Upgraded and replaced original legacy C code that used to design and print labels using VT350 terminals
+•	Interfaced java with the Oracle database using JDBC and basic select statements
+•	Used the eclipse software environment to develop the java application
+•	Used maven to store and maintain artifacts, dependencies, compile and package code
+•	Developed web applications using jsf, primefaces, jboss seam, jndi, html, javascript.
+Senior Java Web Developer	Portrait Group, Remote, Chicago, Illionois	3/2014-2/2017
+•	Developed java server web pages using html, java, javascript, ajax, css, and style sheets.
+•	Deployed projects to Weblogic container, including full installation of Weblogic and implements SSL certificates.
+•	Produced high quality reports using itext libraries inside of a java restful web service to respond to customer requests including ecommerce and other applications.
+•	Developed advanced java software singlehandedly with support from our database department 
+•	Designed, developed and maintained advanced java software systems including setting enterprise standards.
+•	Produced extremely robust software using repeated java junit testing via the maven system.
+•	Used advanced windows powershell techniques to perform advanced integration testing after installation and deployment
+•	Used python scripts to process bank transactions and run external Cobol programs.
+•	Generated war files using Apache Ant and Maven and checking code in and out using svn.
+•	Created Python scripts to allow user access to Cobol programs.
+•	Evaluated Jaspersoft and other Business Intelligence software to compare with itext libraries.
+
+Web Developer (Voluntary)	Legion of Mary, Independent Projects	7/2012-Present
+•	Developed java server web pages using html, java, JavaScript, php and css.
+•	Designed, developed and maintained MySQL database for reporting
+•	Generated weekly customizable html based reports for weekly meetings.
+•	Performed various computer related support activities for church and friends for Apple iPad and Microsoft Windows
+•	Engaged in social media activities with Facebook
+•	Supported conference presentations for individuals with laptops during the year.
+•	Assisting Microsoft identifying bugs with Windows 10 linux
+
+
+Web Developer	Talentkeepers, Winter Park, Florida	3/2012-6/2012
+•	Developed java server web pages using html, java, JavaScript, ajax, css, and style sheets
+•	Customized ckeditor functionality using JavaScript and other configuration information
+•	Worked on Active Server Pages, updating embedded sql server statements to fix various bugs.
+•	Wrote pdf reports using jsp pages and the itext libraries to output sophisticated analysis of survey data.
+•	Personalized Microsoft’s Customer Management System CRM pages using entity customization and aspx programming.
+•	Enhanced Customer Management System upload programs using visual basic dot net (vb.net) to process web page registration information.
+
+
+Web Designer/Tech Support	The First Academy	11/2010 – 07/2011
+•	Provided technical support for Windows Server 2003, Windows 7, Windows XP and various applications including Microsoft Office 2010, Networking, and Remote maintenance. 
+•	Maintained First Academy website at http://www.thefirstacademy.org.  
+•	Used web help desk software to respond to tickets on a daily basis.
+•	Monitored network using nagios, nmap and other open source solutions which would then for the first time in the history of The First Academy alert staff to server outages via email alerts.
+•	
+Web Developer (Voluntary)	Campus Crusade for Christ, Orlando, FL	9/2009 – 08/2011
+•	Developed database for south asian festivals in America. 
+•	Created wiki to hold festival information such as one might encounter in wikipedia.  
+•	Developed on line course of study in Java, mysql and php to implement an email subscription to a sequence of pdf files mailed to users using Joomla plugin.
+•	Administered display tables at various conferences around America.  
+•	Contacted important key individuals to determine times, dates, expenses, and venues for various events.
+•	Used python scripts to automate various ministry related activities  
+Oracle Java Developer (Contract)	Defense Finance and Accounting Services, Indianapolis, Indiana	2/2009 - 7/2009
+•	Resolved issues with important information being sent to the field regarding salary payments on weekend reports.  
+•	Examined various stored procedures, sql statements, and Unix shell scripts to identify discrepancies and provide solutions.
+•	Contacted important key individuals to determine times, dates, expenses, and venues for various events.  
+•	Implemented web service written using java.
+•	Assumed responsibility for web service java project.
+•	Created front end using jsp and java code to access the web service.
+•	Tuned slow sql statements reducing access times from 16 minutes to 3 seconds. 
+•	Enabled customers to access the information to identify various serviceman's identities using an id card and a java-based web service calling an Oracle stored procedure.
+Lead Application Developer (Contract)	Aetna Specialty Pharmacy, Orlando, FL 	8/2008 - 12/2008 
+•	Provided strategic direction to propose the appropriate upgrade to the java version in use at Aetna. 
+•	Researched and proposed appropriate solutions to identify memory leaks in the Java code.
+•	Used python and excel charts to show progression of memory leaks over time in linux.
+•	Chose software to resolve memory issues and implement the appropriate steps.
+•	Implemented changes to medicines without needing the prescribing doctor's intervention to approve a replacement medicine. 
+•	Introduced required changes using Java, JSP, and Oracle Applications 11i.  
+
+Lead Java Web Developer (Contract)	Walt Disney World, Orlando, Florida 	3/2007- 4/2008 
+•	Worked on vacation planning project to allow users to view rewards for selling tickets to Disney World's parks.
+•	Implemented java, sql and web pages to create ecommerce in house website allowing cast members to choose rewards based on the reward level assigned to the cast member based on performance using java, freemarker, oracle, ant and firestorm.
+•	Developed a similar application to help with reserving Disney's collection of conference materials and props for use during various conventions.  
+•	Used the same code base and Apache ant to generate both applications.
+•	Enabled Disney employees who excelled at sales to be appropriately rewarded for their efforts.
+•	Worked on making it possible to reserve items for use at Disney's convention centers and avoid double booking of items.
+
+
+Senior Software Engineer 	Mobius Management, Orlando, FL	12/2002 - 2/2007
+•	Converted their contenuity content web management system from a Microsoft sql-server based system to an Oracle based system for one of their key clients.
+•	Automated updating the database using dot net technology.
+•	Delivered Oracle content management system successfully to a satisfied customer for the first time in the company's history. 
+•	Indexed documents using web services.
+•	MS SQL development experience on MS SQL Server including:
+•	Writing and analyzing complex SQL Queries 
+•	Creating multiple types of joins
+•	Implemented new web service using javas web service development system.  
+•	Developed various database products one being an upgrade and another requiring tuning. 
+•	Worked on the upgrade project and provided key architectural decision regarding how to approach the upgrade. 
+•	Enabled company to offer inexpensive and efficient way to upgrade their database for our new product line. 
+MEMBERSHIPS:
+Java Users Group,  Oracle Users Group,  Linux Users Group
+EDUCATION: 
+Bachelor of Science in Computer Science from Worcester Polytechnic Institute, Worcester, MA, 1986
+Continuing educational computer courses taken on line 
+
+</textarea>
+</li>
+</ol>
+</form>
+
+</body>
+</html>
+
